@@ -1,0 +1,238 @@
+#project-sixPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    /* align-items: start;*/
+    align-items: center;
+    background-color: white;
+}
+
+#project-sixPage > .upSection-project {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+#project-sixPage > .upSection-project > span {
+    font-family: "Rubik", sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#project-sixPage > .upSection-project > .page-topicfirst1 {
+    color: #3C4043;
+    padding-right: 10px;
+}
+
+#project-sixPage > .upSection-project > .page-topicsecond2 {
+    color: #083da1;
+}
+
+#project-sixPage > .downSection-project {
+    width: 65%;
+    height: 65%;
+    /*padding-right: 9px;*/
+    display: flex;
+    position: relative;
+    top: 21px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.projectWrapper {
+    width: 100%;
+    height: 95%;
+    overflow-x: scroll;
+}
+
+.projectWrapper > section {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.projectWrapper > section > div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    min-width: 12.7vw;
+    height: 96%;
+    margin: 10px;
+    border: 2px solid #1717c2;
+    border-radius: 15px;
+    font-size: 0.8em;
+    background-color: #F0F3FA;
+
+}
+
+div > .project-img {
+    width: 279px;
+    height: 169px;
+    position: relative;
+    bottom: -10px;
+    /* border-radius: 15px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.project-topic {
+    position:relative;
+    bottom: 3px;
+    font-family: 'Inter', sans-serif;
+    color:#041A59 ;
+
+}
+.project-description{
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: sans-serif;
+    color: #3C4043;
+    text-align: center;
+    line-height: 24px;
+    position: relative;
+    bottom: 22px;
+}
+
+.btn-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+.gitHub-linked {
+    border: 2px solid #d0d017;
+    font-size: 11px;
+    justify-content: center;
+    width: 128px;
+    display: flex;
+    position: relative;
+    height: 29px;
+    top: -8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+/*.downSection-project >*/
+/*.downSection-project .projects-section {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    height: 86%;
+    border: 2px solid #103cc9;
+    border-radius: 15px;
+    background-color: #F0F3FA;
+    justify-content: space-between
+}*/
+
+/*
+.projects-section > .img-box-project > img {
+    width: 352px;
+    height: 194px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content-projects {
+    font-size: 0.8em;
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-topic {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #020F33;
+    font-weight: bold
+}
+
+.content-project-description {
+    font-family: sans-serif;
+    color: #3C4043;
+    text-align: center;
+    line-height: 24px;
+
+}
+
+.btn-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gitHub-linked {
+    border: 2px solid #d0d017;
+    font-size: 13px;
+    justify-content: center;
+    width: 128px;
+    display: flex;
+    position: relative;
+    height: 29px;
+    top: -8px;
+    align-items: center;
+    cursor: pointer;
+}
+*/
+
+
+/*.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide, swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 80%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

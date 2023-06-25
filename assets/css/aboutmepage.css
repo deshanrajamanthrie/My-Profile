@@ -1,0 +1,151 @@
+
+#aboutMe-SecondPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aboutMe-SecondPage > .upSection {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* padding-top: 0px;*/
+
+}
+
+#aboutMe-SecondPage > .upSection span {
+    font-size: 3em;
+    /*margin-top: 10px;*/
+    font-family: "Rubik", sans-serif;
+    font-weight: bolder;
+
+}
+
+#aboutMe-SecondPage > .upSection > .page-topicfirst {
+    color: #3C4043;
+    padding-right: 10px;
+
+}
+
+#aboutMe-SecondPage > .upSection > .page-topicsecond {
+    color: #083da1;
+
+}
+
+#aboutMe-SecondPage > .downSection {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#aboutMe-SecondPage > .downSection > :first-child {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#aboutMe-SecondPage > .downSection > section {
+    font-size: 1.1em;
+}
+
+#aboutMe-SecondPage > .downSection > :first-child img {
+    width: 80%;
+    box-shadow: 2px 1px 8px 0px #04041c7a;
+    border-radius: 20px;
+
+}
+
+#aboutMe-SecondPage > .downSection > :last-child {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#aboutMe-SecondPage > .downSection > :last-child > h2 {
+    color: #050850;
+    /* font-family: "Rubik", sans-serif; */
+    margin-bottom: 0px;
+    padding-bottom: 17px;
+}
+
+#aboutMe-SecondPage > .downSection > :last-child > article > p {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    line-height: 29px;
+    bottom: 31px;
+    text-align: justify;
+    color: #474747;
+}
+
+
+#aboutMe-SecondPage > .downSection > :last-child > .bio-detail {
+    margin-top: 18px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    /* border: 1px solid; */
+    bottom: 39px;
+}
+
+
+#aboutMe-SecondPage > .downSection > :last-child > .bio-detail > section {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+
+
+}
+
+#aboutMe-SecondPage > .downSection > :last-child > .bio-detail > .bio-left-section > div {
+    line-height: 28px;
+    /* flex-direction: column;*/
+
+
+}
+
+#aboutMe-SecondPage > .downSection > :last-child > .bio-detail > .bio-right-section > div {
+    line-height: 28px;
+    /* flex-direction: column;*/
+}
+
+.bio-attribute {
+    font-size: 15px;
+    color: #373b3d;
+    margin-right: 20px;
+}
+
+
+.bio-value {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #020934;
+}
+
+.downSection > :last-child > div {
+    display: flex;
+    position: relative;
+    bottom: 29px;
+}
+
+.downSection > :last-child > div > button {
+    font-size: 11px;
+    padding: 9px 14px 9px 14px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bolder;
+}
+/*Animation*/
+body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 2.8s;
+}

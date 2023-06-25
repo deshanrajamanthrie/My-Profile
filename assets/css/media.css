@@ -1,0 +1,392 @@
+@media all and (min-width: 350px) and (max-width: 500px) {
+
+    header > nav {
+        justify-content: start;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header > nav > :first-child {
+        display: flex;
+    }
+
+    /*HOME PAGE============================================================================*/
+    .homePage > section > :first-child {
+        display: none;
+    }
+
+    .homePage > section > :last-child {
+        width: 100%;
+
+    }
+
+    .homePage > section > :last-child > article {
+        padding-left: 2%;
+        height: 35%;
+    }
+
+    .homePage > section > :last-child > article > p {
+        width: 100%;
+        text-align: start;
+    }
+
+    .homePage > section > :last-child > article > h2 {
+        font-size: 1.7em;
+    }
+
+    .homePage > section > :last-child > article > h5 {
+        font-size: 0.7em;
+    }
+
+    .homePage > section > :last-child > section {
+        height: 60%;
+        padding-left: 8px;
+    }
+
+    .homePage > section > :last-child > section p {
+        margin: 20px;
+    }
+
+
+    /*About Me Page =========================================================================*/
+    #aboutMe-SecondPage {
+        height: auto;
+    }
+
+    #aboutMe-SecondPage > .upSection > span {
+        /*  margin-top: 2px;*/
+        font-size: 2em;
+        margin-top: 41px;
+    }
+
+    #aboutMe-SecondPage > .downSection {
+        margin-top: 20px;
+    }
+
+    #aboutMe-SecondPage > .downSection > :first-child {
+        display: none;
+    }
+
+    #aboutMe-SecondPage > .downSection > :last-child {
+        width: 81%;
+    }
+
+    #aboutMe-SecondPage > .downSection > :last-child > h2 {
+        text-align: start;
+        font-size: 22px;
+
+    }
+
+    #aboutMe-SecondPage > .downSection > :last-child > article > p {
+        font-size: 15px;
+    }
+
+    #aboutMe-SecondPage > .downSection > :last-child > .bio-detail {
+        flex-direction: column;
+    }
+
+    #aboutMe-SecondPage > .downSection > :last-child > .bio-detail > section {
+        display: flex;
+        width: 97%;
+        flex-direction: column;
+    }
+
+    .bio-attribute {
+        font-size: 12px;
+        font-weight: bolder;
+        color: #0d0d6e;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .bio-value {
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        color: #020934;
+        position: relative;
+        left: 10px;
+    }
+
+    .left-value {
+        position: relative;
+        left: 17px;
+    }
+
+    .downSection > :last-child > div {
+        justify-content: end;
+    }
+
+
+    /*What I Do Page =========================================================================*/
+    #whatIDo-thirdPage {
+        height: auto;
+    }
+
+    #whatIDo-thirdPage > .upSection {
+        position: relative;
+        bottom: -54px;
+        margin-bottom: 180px;
+    }
+
+    #whatIDo-thirdPage > .upSection > span {
+        font-size: 2em;
+    }
+
+    #whatIDo-thirdPage > .downSection-main {
+        position: relative;
+        right: 26px;
+        bottom: 77px;
+    }
+
+    #whatIDo-thirdPage > .downSection-main > div {
+        width: 80vw;
+    }
+
+    #whatIDo-thirdPage > .downSection-main > div > :first-child {
+        height: 60px;
+        width: 60px;
+        background-color: #ece0e0;
+        position: relative;
+        top: 14px;
+    }
+
+    #whatIDo-thirdPage > .downSection-main > div > span > .doimg {
+        width: 35px;
+        height: 35px;
+    }
+
+    #whatIDo-thirdPage > .downSection-main > div > .topic-Ido {
+        font-size: 0.7em;
+        padding-top: 50px;
+
+    }
+
+    #whatIDo-thirdPage > .downSection-main > div > :last-child {
+        height: auto;
+        justify-content: start;
+        font-size: 17px;
+
+
+    }
+
+    .content-Ido {
+        position: relative;
+        bottom: -20px;
+        margin-left: 45px;
+        margin-right: 45px;
+        line-height: 35px;
+    }
+
+    /*my Skills =========================================================================*/
+    #skills-forthPage {
+        height: auto;
+    }
+
+    #skills-forthPage > .upSection > span {
+        /*  margin-top: 2px;*/
+        font-size: 2em;
+        margin-top: 30px;
+    }
+
+    #skills-forthPage > .downSection-skills {
+        width: 80%;
+        margin-top: 12px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
+    }
+
+    #skills-forthPage > .downSection-skills div {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    }
+
+    #skills-forthPage > .downSection-skills > div > img {
+        width: 45px;
+        height: 45px;
+        padding-top: 10px;
+    }
+
+    #skills-forthPage > .downSection-skills > div p {
+        font-size: 0.8em;
+    }
+
+    /*my Skills =========================================================================*/
+    #education-fivePage {
+        height: auto;
+        margin-top: 130px;
+        /*margin-bottom: -10px;*/
+    }
+
+    #education-fivePage > .upSection-education > span {
+        font-size: 2em;
+
+    }
+
+    #education-fivePage > .upSection-education {
+        margin-top: 16px;
+    }
+
+    #education-fivePage > .downSection-education > section {
+
+    }
+
+    #education-fivePage > .upSection-education > :last-child {
+        font-size: 1.0em;
+        text-align: center;
+        line-height: 20px;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    #education-fivePage > .downSection-education {
+        margin-top: 60px;
+    }
+
+    #education-fivePage > .downSection-education > section {
+        width: 66%;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        /* height: auto; */
+        height: 919px;
+        bottom: 39px;
+
+    }
+
+    #education-fivePage > .downSection-education > section > article {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #education-fivePage > .downSection-education > section > article > .left-div {
+        width: 100%;
+        height: 175px;
+
+
+    }
+
+    .edu-image {
+        border-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 100%;
+        height: 141px;
+
+    }
+
+    .downSection-education > section > article > .right-div {
+        font-size: 0.4em;
+        position: relative;
+        bottom: 22px;
+    }
+
+
+    .downSection-education > section > article > .right-div > .degree-item {
+        font-size: 17px;
+        text-align: start;
+    }
+
+
+    /*my Projects =========================================================================*/
+    #project-sixPage {
+        height: auto;
+    }
+
+    #project-sixPage > .upSection-project {
+        margin-top: 12px;
+    }
+
+    #project-sixPage > .upSection-project > span {
+        font-size: 2em;
+    }
+
+    #project-sixPage > .downSection-project {
+        margin-top: 71px;
+        position: relative;
+    }
+
+    .projectWrapper > section > div {
+        width: 60vw;
+        height: 86%;
+    }
+
+    div > .project-img {
+        width: 224px;
+        height: 126px;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .projectWrapper {
+        position: relative;
+        bottom: 48px;
+    }
+
+    /*Contact me=============================================================================*/
+    #contactMe-sevenPage {
+        height: auto;
+    }
+
+    #contactMe-sevenPage > .upSection-Contact > span {
+        font-size: 2em;
+
+    }
+
+    #contactMe-sevenPage > .upSection-Contact {
+        margin-top: 12px;
+    }
+
+    #contactMe-sevenPage > .downSection-Contactme {
+        flex-direction: column;
+    }
+
+    .downSection-Contactme > .left-section-contact {
+        width: 80%;
+    }
+
+    .left-section-contact > .describe-contact {
+        font-size: 1em;
+    }
+
+    .input-Slides {
+        height: 35px;
+    }
+
+    .submit-buttonArea {
+        height: 32px;
+    }
+
+    .submitButton {
+        width: 78px;
+        font-size: 0.8em;
+    }
+
+    .right-section-contact {
+        width: 73%;
+    }
+    .right-section-contact > .location-map-area{
+        width: 100%;
+        height: 274px;
+
+    }
+    iframe{
+        height: 198px;
+    }
+
+
+}
+
+
+
+
+
+
+
+

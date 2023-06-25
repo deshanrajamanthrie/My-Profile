@@ -1,0 +1,85 @@
+#skills-forthPage {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#skills-forthPage > .upSection {
+    width: 100%;
+    position: relative;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+}
+
+#skills-forthPage > .upSection > span {
+    font-size: 3em;
+    font-family: "Rubik", sans-serif;
+    font-weight: bolder;
+    /*margin-top: -39px;*/
+}
+
+#skills-forthPage > .upSection > :first-child {
+    color: #3C4043;
+    padding-right: 10px;
+
+}
+
+#skills-forthPage > .upSection > :last-child {
+    color: #083da1;
+}
+
+#skills-forthPage > .downSection-skills {
+    display: grid;
+    width: 58%;
+    height: 70%;
+    grid-gap: 26px;
+    background-color: #FFFFFF;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
+    bottom: -49px;
+}
+
+#skills-forthPage > .downSection-skills div {
+    background-color: #f5f6fa;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 1.5px 1.5px 5px rgb(28 23 23 / 37%);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#skills-forthPage > .downSection-skills div:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.01);
+    transition: 1.2s;
+}
+
+#skills-forthPage > .downSection-skills > div > img {
+    width: 80px;
+    height: 80px;
+}
+
+#skills-forthPage > .downSection-skills > div p {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bolder;
+    color: #434852;
+}
+
+#skills-forthPage > .downSection-skills > div > p:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+}
+
+
+
+
+
+

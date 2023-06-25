@@ -1,0 +1,109 @@
+#education-fivePage {
+    width: 100vw;
+    height: 120vh;
+    /* justify-content: center;*/
+    align-items: center;
+    display: flex;
+    background-color: #F0F3FA;
+}
+
+#education-fivePage > .upSection-education {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 30px;
+    height: 18%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#education-fivePage > .upSection-education > span {
+    font-size: 3em;
+    font-family: "Rubik", sans-serif;
+    font-weight: bolder;
+}
+
+#education-fivePage > .upSection-education > :first-child {
+    padding-right: 10px;
+}
+
+#education-fivePage > .upSection-education > :last-child {
+    font-family: 'Inter', sans-serif;
+    color: #3f4752;
+}
+
+#education-fivePage > .downSection-education {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#education-fivePage > .downSection-education > section {
+    width: 60%;
+    height: 84%;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    justify-content: space-between;
+}
+
+#education-fivePage > .downSection-education > section > article {
+    width: 100%;
+    height: 30%;
+  /*  border: 1px solid;*/
+    display: flex;
+    font-size: 2em;
+    box-shadow: 1.5px 1.5px 5px rgb(28 23 23 / 37%);
+    background-color: #FFFFFF;
+}
+
+#education-fivePage > .downSection-education > section > article > .left-div {
+    width: 30%;
+    height: 100%;
+
+}
+.edu-image{
+    width: 100%;
+    height: 100%;
+
+}
+
+.downSection-education > section > article > .right-div {
+    font-size: 0.5em;
+    font-family: 'Tajawal', sans-serif;
+    margin-left: 20px;
+    color: #3f4752;
+
+}
+
+.downSection-education > section > article > .right-div > .degree-item {
+    font-weight: bold;
+    color: #012970;
+    font-family: 'Inter', sans-serif;
+   /* font-family: "Roboto Slab", sans-serif;*/
+   /* font-family:  Poppins, sans-serif;*/
+    margin-bottom: -8px;
+}
+
+.duration-education {
+    color: #8c0505;
+    font-family: sans-serif;
+    margin-top: -7px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

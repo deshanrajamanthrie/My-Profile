@@ -1,0 +1,94 @@
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    height: 10vh;
+    position: relative;
+    width: 100vw;
+    box-shadow: 0 0 5px 1px #595454;
+}
+
+header > nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header > nav > :first-child {
+    display: none;
+}
+
+header ul {
+    padding-right: 10px;
+}
+
+header ul > li {
+    font-size: 16px;
+    display: inline;
+    padding: 8px 20px 8px 20px;
+    font-family: 'Rubik', sans-serif;
+}
+header > ul > li :hover {
+    background-color: #192A56;
+    color: #ffffff;
+    left: 11px;
+    position: relative;
+    padding: 8px 20px 8px 20px;
+    border: 1px solid;
+    border-radius: 17px;
+    transition: all .3s ease-in-out;
+}
+
+header ul > li > a {
+    text-decoration: none;
+    color: #192A56;
+    opacity: 1;
+    font-weight: bolder;
+}
+
+/* header > ul > li .active,*/
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main > aside {
+    width: 100vw;
+    height: 30vh;
+    display: none;
+
+}
+
+main > aside > section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+main > aside > section > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 4%;
+    padding-left: 5%;
+}
+
+main > aside > section > ul li {
+    padding-bottom: 5px;
+}
+
+main > aside > section > ul a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
