@@ -60,6 +60,7 @@
     justify-content: end;
     align-items: center;
     font-size: 1.5em;
+    padding-left: 100px;
 
 
 }
@@ -72,6 +73,7 @@
     justify-content: start;
     align-items: start;
     padding-top: 20px;
+    padding-left: 40px;
 
 }
 
@@ -80,8 +82,8 @@
     font-family: monospace;
     font-size: 1.0em;
     margin: 0;
-    position: relative;
-    left: 249px;
+
+
     color: rgba(0, 0, 0, 0.8);
     /*font-weight: bolder;*/
 }
@@ -90,8 +92,6 @@
     text-align: start;
     width: 100%;
     margin: 0;
-    position: relative;
-    left: 60px;
     font-size: 2.0em;
     font-family: 'Roboto', sans-serif;
     color: #002057;
@@ -101,13 +101,12 @@
 }
 
 .homePage > section > :last-child > article > h5 {
-    text-align: center;
+
     width: 100%;
-    position: relative;
     top: 5px;
     margin: 2px;
     color: rgba(0, 0, 0, 0.8);
-    left: -120px;
+
     font-size: 1.1em;
     font-family: monospace;
 }
