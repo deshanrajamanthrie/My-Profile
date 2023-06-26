@@ -104,7 +104,7 @@
             </section>
             <section>
                 <article>
-                    <h3>Hello,I'm</h3>
+                    <!--<h3>Hello,I'm</h3>-->
                     <h2>DESHAN RAJAMANTHRIE</h2>
                     <h5>Software Engineer & Full Stack-Developer
                     </h5>
@@ -383,17 +383,17 @@
                             <div class="gitHub-linked">Open Git Hub</div>
                         </span>
                     </div>
-                    <div>
-                        <img class="project-img" src="assets/img/projectIcon/hotel.PNG" alt="">
-                        <h4 class="project-topic">Hotel Management System</h4>
-                        <p class="project-description">This Project was done is Java Also ,this is a
-                            standalone application,where more attention is paid to create a more <strong>user- friendly
-                                interface. </strong>
-                            Not Crud Operation.</p>
-                        <span class="btn-down">
-                            <div class="gitHub-linked">Open Git Hub</div>
-                        </span>
-                    </div>
+                    <!--  <div>
+                          <img class="project-img" src="assets/img/projectIcon/hotel.PNG" alt="">
+                          <h4 class="project-topic">Hotel Management System</h4>
+                          <p class="project-description">This Project was done is Java Also ,this is a
+                              standalone application,where more attention is paid to create a more <strong>user- friendly
+                                  interface. </strong>
+                              Not Crud Operation.</p>
+                          <span class="btn-down">
+                              <div class="gitHub-linked">Open Git Hub</div>
+                          </span>
+                      </div>-->
                     <div>
                         <img class="project-img" src="assets/img/projectIcon/st.PNG" alt="">
                         <h4 class="project-topic">Student Management System</h4>
@@ -466,30 +466,32 @@
         </section>
     </main>
 
-    <main>
-        <footer>
-            <div class="footer-main-content">
-                <p class="address"> 96/A Jayawardanarama Road Kalamulla Kalutara,South</p></div>
-            <div class="footer-main-content">
-                <a class="footer-contact"
-                   href="mailto: deshanrajamanthrie2001@gmail.com">deshanrajamanthrie2001@gmail.com</a>
-                <br><br>
-                <a class="footer-contact" href="tel:0741422467"> (+94)74 1422467</a></div>
+    <main id="footer-last">
+        <section class="downSection-Footer">
+            <article class="left-article-footer">
+                <div>
+                    <a target="_blank" href="./page/assignment.html"><button>CSS & JS Assignment Lab</button></a>
+                </div>
+               <!-- <div>
+                    <a target="_blank" href="./page/assignment.html"> <button>J.S. Assignment Lab</button></a>
+                </div>-->
+            </article>
+            <article class="right-article-footer">
+                <span>
+                    <p>Jayawardanarama Road Kalamulla Kalutara</p>
+                    <p>+74 71 5807726</p>
+                    <p>deshanrajamanthrie2001@gmail.com</p>
+                </span>
+                <span class="img-project-footer">
+                    <div><img src="assets/img/footerimg/C.PNG" alt="s"></div>
+                    <div> <img src="assets/img/footerimg/footer-linkend.png" alt="s"></div>
+                    <div> <img src="assets/img/footerimg/footer-twitter.png" alt="s"></div>
+                    <div><img src="assets/img/footerimg/footer-whatsapp.png" alt="s"></div>
+                </span>
 
-            <div class="footer-name">
-                <p>DESHAN RAJAMANTHRIE</p>
 
-            </div>
-            <div class="footer-position"><p>SOFTWARE ENGINEER | FULLSTACK-DEVELOPER | UI/UX DESIGNER</p></div>
-
-            <section>
-                <div><img class="footer-img" src="assets/img/footerimg/C.PNG" alt="fb"></div>
-                <div><img class="footer-img" src="assets/img/footerimg/footer-linkend.png" alt="linkdIn"></div>
-                <div><img class="footer-img" src="assets/img/footerimg/footer-twitter.png" alt="twittee"></div>
-                <div><img class="footer-img" src="assets/img/footerimg/footer-whatsapp.png" alt="watsapp"></div>
-            </section>
-        </footer>
-
+            </article>
+        </section>
 
     </main>
 
@@ -501,6 +503,7 @@
     $("#dropDownBtn").click(function () {
         if (!dropOnOf) {
             $("#dropDownList").fadeIn();
+            $("#dropDownList li>a").css({"background":"red","":""});
             dropOnOf = true;
         } else {
             $("#dropDownList").fadeOut();

@@ -1,96 +1,73 @@
-footer {
+#footer-last {
     width: 100vw;
     height: 30vh;
-    background-color: #1F203A;
-    padding-top: 1px;
-}
-
-footer > [class='footer-main-content'] {
-    /*border: 1px solid white;*/
-    width: 302px;
-    height: 76px;
-    position: relative;
-    left: 33px;
-    top: 18px;
-
-
-}
-
-footer > div > .address {
-    font-family: 'Inter', sans-serif;
-    color: white;
-    font-size: 13px;
-    line-height: 1.5;
-    padding-top: 13px;
-}
-
-.footer-contact {
-    text-decoration: none;
-    position: relative;
-    bottom: 12px;
-    font-family: 'Inter', sans-serif;
-    color: white;
-    font-size: 13px;
-    bottom: -12px;
-}
-
-main > footer > [class='footer-name'] {
-    width: 322px;
-    position: relative;
-    /* border: 1px solid white; */
-    left: 917px;
-    bottom: 144px;
-}
-
-main > footer > [class='footer-name'] > p {
-    font-size: 21px;
-    font-family: 'Inter', sans-serif;
-    color: #eaecf9;
-}
-
-[class='footer-position'] {
-    position: relative;
-    left: 837px;
-    width: 510px;
-    bottom: 146px;
-}
-
-[class='footer-position'] > p {
-    font-size: 13px;
-    font-family: 'Inter', sans-serif;
-    color: #eaecf9;
-}
-
-footer > section {
-    /* border: 1px solid white;*/
-    width: 400px;
-    height: 62px;
-    position: relative;
-    left: 854px;
-    bottom: 137px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    background-color: #0e0e42;
 }
 
-footer > section > div {
-    /* border: 2px solid white;*/
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    transition: 1.3s;
+#footer-last > .downSection-Footer {
+    width: 94%;
+    height: 80%;
+    display: flex;
 }
 
-footer > section > div > .footer-img {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+#footer-last > .downSection-Footer > .left-article-footer {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-footer>section>div:hover{
-    border: 1px solid white;
-    background-color: midnightblue;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    transform: scale(1.2);
+
+.left-article-footer > div button {
+    width: 178px;
+    height: 57px;
 }
+
+.downSection-Footer > .right-article-footer {
+    width: 70%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-article-footer > span {
+    font-size: 1em;
+    color: white;
+    font-family: 'Tajawal';
+    height: 75%;
+}
+
+.right-article-footer > .img-project-footer {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 0px; */
+    right: 40px;
+    align-items: center;
+    margin: 4px;
+    justify-content: start;
+    position: relative;
+}
+
+.img-project-footer > div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    margin-left: 34px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #0d0d6e;
+}
+
+.img-project-footer > div img {
+    width: 20px;
+    height: 18px;
+}
+
+
+

@@ -8,9 +8,11 @@ body {
 
 header {
     height: 10vh;
-    position: relative;
+    position: fixed;
     width: 100vw;
     box-shadow: 0 0 5px 1px #595454;
+    background-color: white;
+    z-index:10;
 }
 
 header > nav {
@@ -27,6 +29,7 @@ header > nav > :first-child {
 
 header ul {
     padding-right: 10px;
+
 }
 
 header ul > li {
@@ -35,7 +38,7 @@ header ul > li {
     padding: 8px 20px 8px 20px;
     font-family: 'Rubik', sans-serif;
 }
-header > ul > li :hover {
+header > ul > li a:hover {
     background-color: #192A56;
     color: #ffffff;
     left: 11px;

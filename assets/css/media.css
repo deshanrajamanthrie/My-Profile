@@ -23,22 +23,26 @@
     }
 
     .homePage > section > :last-child > article {
-        padding-left: 2%;
+        position: relative;
         height: 35%;
+        right: 48px;
     }
 
-    .homePage > section > :last-child > article > p {
+    .homePage > section > :last-child > article > h5 {
         width: 100%;
         text-align: start;
     }
 
     .homePage > section > :last-child > article > h2 {
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
 
     .homePage > section > :last-child > article > h5 {
         font-size: 0.7em;
+        left: 65px;
+        position: relative;
     }
+
 
     .homePage > section > :last-child > section {
         height: 60%;
