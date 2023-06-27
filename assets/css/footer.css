@@ -68,6 +68,17 @@
     width: 20px;
     height: 18px;
 }
-
+.assingment-lab{
+    border: 2px solid #0a0a1e;
+    color: white;
+    font-family: sans-serif;
+    background-color: #7b00ff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.assingment-lab:hover{
+    color: black;
+    background-color: darksalmon;
+}
 
 
