@@ -1,5 +1,9 @@
 @media all and (min-width: 350px) and (max-width: 500px) {
-
+    body{
+       /* overflow-x: hidden;*/
+       /* margin: 0;
+        padding: 0;*/
+    }
     header > nav {
         justify-content: start;
     }
@@ -47,7 +51,7 @@
 
     .homePage > section > :last-child > section {
         height: 60%;
-        padding-left: 20%;
+        padding-left: 0%;
     }
 
     .homePage > section > :last-child > section p {
