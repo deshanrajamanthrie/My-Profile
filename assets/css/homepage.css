@@ -1,11 +1,11 @@
 
 .homePage {
-    padding-top:10vh ;
+    padding-top: 10vh;
     width: 100vw;
     height: 90vh;
     display: flex;
     background-color: #F0F3FA;
-  /*  background-color: #F0F3FA;*/
+    /*  background-color: #F0F3FA;*/
 }
 
 .homePage > section {
@@ -21,7 +21,7 @@
 
 .homePage > section > :first-child {
     width: 40%;
-    height: 100%;
+    height: 98%;
     display: flex;
 
 
@@ -54,12 +54,12 @@
 /*UP*/
 .homePage > section > :last-child > article {
     width: 100%;
-    height: 55%;
+    height: 49%;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.9em;
     padding-left: 100px;
 
 
@@ -72,7 +72,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: 40px;
 
 }
@@ -94,7 +94,7 @@
     margin: 0;
     font-size: 2.0em;
     font-family: 'Roboto', sans-serif;
-    color: #002057;
+    color: #083177;
 
 
     /*  font-family: 'Poppins', sans-serif;*/
@@ -103,16 +103,14 @@
 .homePage > section > :last-child > article > h5 {
 
     width: 100%;
-    top: 5px;
-    margin: 2px;
+    margin: 5px;
     color: rgba(0, 0, 0, 0.8);
-
-    font-size: 1.1em;
+    font-size: 1.0em;
     font-family: monospace;
 }
 
 /*DOWN*/
-.homePage > section > :last-child > section > div {
+.homePage > section > :last-child > section > .hireme {
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -125,10 +123,56 @@
 
 }
 
-.homePage > section > :last-child > section > div:hover {
+.hireme > span > a {
+    text-decoration: none;
+    color: black;
+    font-family: "Noto Serif";
+}
+
+.hireme > span > a:hover {
     background-color: #243b72;
     color: white;
 }
+
+.homePage > section > :last-child > section > .hireme:hover {
+    background-color: #243b72;
+    color: white;
+}
+
+.homePage > section > :last-child > section > .social-media-Access {
+    padding-top: 83px;
+    display: flex;
+    /*    border: 1px solid;*/
+    justify-content: space-around;
+    align-items: center;
+    width: 31%;
+    position: relative;
+    height: 20%;
+    left: 398px
+
+}
+
+.social-media-Access > span {
+    display: flex;
+     border: 1px solid;
+    width: 12%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color: #040479;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-media-Access > span > a > img {
+    width: 16px;
+}
+
+.social-media-Access > span:hover {
+    transition: 2.0s;
+    background-color: #000000;
+}
+
 
 
 
