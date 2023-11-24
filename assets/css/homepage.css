@@ -2,8 +2,64 @@
 #home-Page-first-page {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
 
+    justify-content: center;
+
+    align-content: center;
     background-color: #F7F7F7;
+}
+
+#home-Page-first-page > .home-left-Section {
+    width: 60%;
+    display: flex;
+    /* height: 50%;*/
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-box {
+    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.letter-box .introduce-box > p, h1, h6 {
+    margin: 5px;
+}
+
+.introduce-box {
+    display: flex;
+    justify-content: end;
+}
+
+.introduce-top {
+   /* color: #FF6C37;*/
+    /* color: #FF6C37; */
+    padding-left: 3px;
+    font-size: 1.2rem;
+    color: rgb(87 84 84);   /* color: rgb(111, 111, 111);*/
+}
+
+.main-Name {
+    color: #0d3684;
+}
+
+.job-position {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(0, 0, 0);
+    /* color: #FF6C37;*/
+    font-size: 1.4rem;
+    padding-top: 8px;
+}
+
+
+#home-Page-first-page > .home-right-section {
+    display: flex;
+    border: 1px solid blue;
+    width: 40%;
+
 }
 
 

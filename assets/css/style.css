@@ -12,7 +12,7 @@ header {
     width: 100vw;
     box-shadow: 0 0 5px 1px #595454;
     background-color: white;
-    z-index:10;
+    z-index: 10;
 }
 
 header > nav {
@@ -33,28 +33,37 @@ header ul {
 }
 
 header ul > li {
-    font-size: 16px;
+    font-size: 15px;
+    text-transform: uppercase;
+
     display: inline;
     padding: 8px 20px 8px 20px;
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: monospace;
+    font-weight: bolder;
+
 }
-header > ul > li a:hover {
-    background-color: #192A56;
-    color: #ffffff;
+
+header ul > li > a {
+    text-decoration: none;
+    color: #828282;;
+    opacity: 1;
+    font-weight: bolder;
+}
+
+header ul > li a:hover {
+    color: black;
+    transition: all .5s;
+/*    color: black;
     left: 11px;
     position: relative;
     padding: 8px 20px 8px 20px;
     border: 1px solid;
     border-radius: 17px;
-    transition: all .3s ease-in-out;
+   */
 }
 
-header ul > li > a {
-    text-decoration: none;
-    color: #192A56;
-    opacity: 1;
-    font-weight: bolder;
-}
+
 
 /* header > ul > li .active,*/
 
