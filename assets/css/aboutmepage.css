@@ -74,7 +74,7 @@
 
 #aboutMe-SecondPage > .downSection > :last-child > h2 {
     color: #050850;
-    /* font-family: "Rubik", sans-serif; */
+     font-family:  'Inter', sans-serif;
     margin-bottom: 0px;
     padding-bottom: 17px;
 }
@@ -82,7 +82,7 @@
 #aboutMe-SecondPage > .downSection > :last-child > article > p {
     position: relative;
     font-family: 'Inter', sans-serif;
-font-size: 1.1rem;
+    font-size: 1.1rem;
     line-height: 29px;
     bottom: 31px;
     text-align: justify;
@@ -123,8 +123,10 @@ font-size: 1.1rem;
 
 .bio-attribute {
     font-size: 15px;
-    color: #373b3d;
-    margin-right: 20px;
+    color: #0D3684;
+    font-family: monospace;
+    margin-right: 0px;
+
 }
 
 
