@@ -1,12 +1,12 @@
 #project-sixPage {
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     justify-content: start;
-    padding-top:10vh;
+    padding-top: 10vh;
     /* align-items: start;*/
     align-items: center;
-    background-color: white;
+    background-color: #F7F7F7;
 }
 
 #project-sixPage > .upSection-project {
@@ -35,108 +35,44 @@
 }
 
 #project-sixPage > .downSection-project {
-    width: 65%;
-    height: 65%;
-    /*padding-right: 9px;*/
+    width: 70%;
+    height: 71%;
+    /* padding-right: 9px; */
     display: flex;
     position: relative;
     top: 21px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
+    border: 1px solid;
+
 }
 
-.projectWrapper {
-    width: 100%;
+.downSection-project>.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(249px, auto));
+    grid-gap: 30px 30px;
+    border: 1px solid;
+    width: 92%;
     height: 95%;
-    overflow-x: scroll;
+
 }
 
-.projectWrapper > section {
-    width: max-content;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-}
 
-.projectWrapper > section > div {
-    position: relative;
+
+.grid-item {
+    border: 1px solid darkred;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 20vw;
-    min-width: 12.7vw;
-    height: 96%;
-    margin: 10px;
-    border: 2px solid #1717c2;
-    border-radius: 15px;
-    font-size: 0.8em;
-    background-color: #F0F3FA;
-
-}
-
-div > .project-img {
-    width: 279px;
-    height: 169px;
-    position: relative;
-    bottom: -10px;
-    /* border-radius: 15px; */
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.project-topic {
-    position:relative;
-    bottom: 3px;
-    font-family: 'Inter', sans-serif;
-    color:#041A59 ;
-
-}
-.project-description{
-    margin-left: 3px;
-    margin-right: 3px;
-    font-family: sans-serif;
-    color: #3C4043;
-    text-align: center;
-    line-height: 24px;
-    position: relative;
-    bottom: 22px;
-}
-
-.btn-down {
-    display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 20px;
-}
-.gitHub-linked {
-    border: 2px solid #d0d017;
-    font-size: 11px;
-    justify-content: center;
-    width: 128px;
-    display: flex;
-    position: relative;
-    height: 29px;
-    top: -8px;
-    align-items: center;
-    cursor: pointer;
+
 }
 
-.projectWrapper::-webkit-scrollbar-thumb{
-    background: green;
-}
-.projectWrapper::-webkit-scrollbar-thumb:hover{
-    background-color: red;
-}
 
-.projectWrapper::-webkit-scrollbar-track{
-    background-color: #0d0d6e;
-}
-.projectWrapper::-webkit-scrollbar{
-    width:10px;
-}
+/*============*/
+
 
 
 

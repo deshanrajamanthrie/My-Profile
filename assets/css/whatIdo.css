@@ -76,8 +76,8 @@
     display: flex;
     position: relative;
     bottom: 30px;
-    font-family: 'Noto Serif';
-    color: #0a0f75;
+    font-family: 'Rubik', sans-serif;
+    color: rgba(2, 2, 82, 0.92);
 }
 #whatIDo-thirdPage > .downSection-main >div> .topic-h2{
 
@@ -100,6 +100,7 @@
     line-height: 38px;
     position: relative;
     left: 0px;
+    font-size: 1.1rem;
     text-align: center;
 }
 #webdevelop-Topic{
