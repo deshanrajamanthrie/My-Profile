@@ -1,6 +1,6 @@
 
 #aboutMe-SecondPage {
-    padding-top:10vh; /*khekh*/
+    padding-top: 10vh; /*khekh*/
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -47,7 +47,7 @@
 
 
 #aboutMe-SecondPage > .downSection > :first-child {
-    width: 30%;
+    width: 32%;
     display: flex;
     justify-content: center;
 }
@@ -58,9 +58,9 @@
 }
 
 #aboutMe-SecondPage > .downSection > :first-child img {
-    width: 80%;
-    box-shadow: 2px 1px 8px 0px #04041c7a;
-    border-radius: 20px;
+    width:110%;
+    /*box-shadow: 2px 1px 8px 0px #04041c7a;*/
+  /*  border-radius: 20px;*/
 
 }
 
@@ -74,7 +74,7 @@
 
 #aboutMe-SecondPage > .downSection > :last-child > h2 {
     color: #050850;
-     font-family:  'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin-bottom: 0px;
     padding-bottom: 17px;
 }
@@ -149,7 +149,21 @@
     font-family: 'Tajawal', sans-serif;
     font-weight: bolder;
 }
+
 /*Animation*/
 body[data-aos-duration="400"] [data-aos] {
     transition-duration: 2.8s;
+}
+
+.dwdCv-btn > .btn {
+    font-family: monospace;
+    width: 150px;
+    height: 35px;
+    border-radius: 25px;
+}
+.dwdCv-btn>.btn:hover{
+    background-color: #232323;
+    color: white;
+    cursor: pointer;
+    transition: all 1.0s;
 }
