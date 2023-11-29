@@ -1,0 +1,141 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#project-zone{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFBFB;
+    flex-direction: column;
+}
+#project-zone>.up-Section-Project-Zone{
+    width: 100%;
+    height: 20vh;
+    background-color: #212428;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: -32px;
+
+}
+
+.title-projectZone{
+    font-size: 2.5rem;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    padding-left: 8px;
+}
+
+.downSection-project-Zone{
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.grid-container-project-Zone{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(249px, auto));
+    grid-gap: 30px 30px;
+    width: 94%;
+    height: 98%;
+    position: relative;
+    left: 10px;
+}
+.grid-item-projects{
+    border-radius: 5px;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    height: 100%;
+}
+.img-projects-zone{
+    max-width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.images-zone{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.describe-projects-zone{
+    max-width: 100%;
+    height: 45%;
+}
+.topic-zone{
+    font-family: monospace;
+    color: #183153;
+    margin: 7px 6px;
+    font-size: 1.2rem;
+}
+.describe-project-content-zone{
+    font-family: 'Inter', sans-serif;
+    margin: 7px 6px;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    text-align: left;
+    color: #575454;
+}
+
+.btn-code-zone{
+    filter: drop-shadow(1.5px 1.5px 5px rgb(28 23 23 / 37%));
+    border: 2px solid black;
+    width: 120px;
+    margin-left: 7px;
+    position: relative;
+    bottom: 3px;
+    height: 30px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #232323;
+    background-color: white;
+}
+
+.btn-code-zone:hover{
+    background-color: #232323;
+    color: white;
+    cursor: pointer;
+    transition: all 1.0s;
+}
+
+.img-project-zone-j{
+    width: 40px;
+    height: 40px;
+}
+
+.btn-project-zone{
+    width: 144px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+bottom: 30px;
+    border: 2px solid black;
+    background-image: linear-gradient(180deg, #0652DD, #273c75);
+}
+.btn-project-zone:hover{
+    background-image: linear-gradient(180deg, White, White);
+    color: #0a0a1e;
+    transition: 1.5s;
+}
+
+
+
+
