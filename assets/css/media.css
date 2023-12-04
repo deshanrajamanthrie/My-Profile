@@ -1,6 +1,6 @@
 @media all and (min-width: 350px) and (max-width: 500px) {
     body {
-         overflow-x: hidden;
+        overflow-x: hidden;
         /* margin: 0;
          padding: 0;*/
     }
@@ -17,85 +17,74 @@
         display: flex;
     }
 
+
     /*HOME PAGE============================================================================*/
-    .homePage > section {
+    .main-pic{
+        display: none;
+    }
+
+    #home-Page-first-page{
+        flex-direction: column-reverse;;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    #home-Page-first-page > .home-left-Section{
+        width: 100%;
+
+    }
+
+    #home-Page-first-page > .home-right-section {
+        position: relative;
+        top: 75px;
+    }
+
+    .main-pic-for-mobile{
+        display: block;
+        width: 80%;
+        position: relative;
+        bottom: 30px;
+    }
+
+
+   .letter-box{
+        font-size: 1rem;
+        padding-top: 80px;
+    }
+
+    .job-position {
+        font-size: 0.9rem;
+        padding-top: 8px;
+        margin-left: 7px;
+    }
+    .introduce-box {
+        display: flex;
+        justify-content: start;
+    }
+    .introduce-top {
+        padding-left: 3px;
+        font-size: 1.2rem;
+        color: rgb(87 84 84);
+    }
+
+    .btn-homePage {
+        width: 95px;
+        height: 33px;
+        top: 13px;
+        left: 234px;
+    }
+
+    .social-media-Bar{
+        top: 13px;
+        justify-content: space-around;
+        right: 13px;
+    }
+    #home-Page-first-page > .home-right-section {
         display: flex;
         width: 100%;
-        height: 100%;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
+        justify-content: center;
+        align-items: end;
     }
-
-    .homePage > section > :first-child {
-        display: block;
-    }
-
-    .homePage > section > :last-child {
-        width: 100%;
-
-    }
-
-    .homePage > section > :last-child > section > .hireme {
-        position: relative;
-        left: 12px;
-    }
-
-    .homePage > section > :first-child > div > img {
-        /*  width: 240%;*/
-        top: 64px;
-        position: relative;
-        width: 260px;
-    }
-
-    .homePage > section > :last-child > article {
-        padding-left: 0;
-        height: 35%;
-        right: 14px;
-        text-align: center;
-        position: relative;
-        top: 33px;
-    }
-
-    .homePage > section > :last-child > article > h5 {
-        width: 100%;
-
-    }
-
-    .homePage > section > :last-child > article > h2 {
-        font-size: 1.0em;
-        text-align: center;
-        position: relative;
-        right: 18px;
-
-    }
-
-    .homePage > section > :last-child > article > h5 {
-        font-size: 0.6em;
-
-    }
-
-    .homePage > section > :last-child > section > .social-media-Access {
-        position: relative;
-        left: 7px;
-        bottom: 43px;
-        width: 45%;
-    }
-
-    .social-media-Access > span {
-        width: 18%;
-        height: 85%;
-    }
-
-    .homePage > section > :last-child > section {
-        height: 60%;
-        padding-left: 0%;
-    }
-
-    .homePage > section > :last-child > section p {
-        margin: 20px;
-    }
-
 
     /*About Me Page =========================================================================*/
     #aboutMe-SecondPage {

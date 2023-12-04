@@ -69,6 +69,10 @@
 
 }
 
+.main-pic-for-mobile{
+    display: none;
+}
+
 .social-media-Bar {
     width: 100%;
     /*   border: 1px solid;*/

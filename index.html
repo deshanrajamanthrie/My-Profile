@@ -54,8 +54,6 @@
           rel="stylesheet">
 
 
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Swiper============================================-->
 
@@ -87,9 +85,8 @@
 <header>
 
     <nav>
-        <div id="dropDownBtn"><img src="./assets/img/home/hamberg.png" alt=""></div>
-
-        <img class="icon-image-top-header" src="assets/img/home/l.PNG" alt="abc">
+        <!--  <div id="dropDownBtn"><img src="./assets/img/home/hamberg.png" alt=""></div>-->
+        <img class="icon-image-top-header" src="./assets/img/home/l.PNG" alt="abc">
 
         <ul id="text">
             <li><a href="#"> Home</a></li>
@@ -104,19 +101,20 @@
 
 </header>
 <main>
-    <aside id="dropDownList">
-        <section>
-            <ul>
-                <li><a href="#"> Home</a></li>
-                <li><a href="#aboutMe-SecondPage" class="active">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#myProjects">My Projects</a></li>
-                <li><a href="#mygallery">My Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </section>
-    </aside>
+
+    <!-- <aside id="dropDownList">
+         <section>
+             <ul>
+                 <li><a href="#"> Home</a></li>
+                 <li><a href="#aboutMe-SecondPage" class="active">About</a></li>
+                 <li><a href="#education">Education</a></li>
+                 <li><a href="#skills">Skills</a></li>
+                 <li><a href="#myProjects">My Projects</a></li>
+                 <li><a href="#mygallery">My Gallery</a></li>
+                 <li><a href="#contact">Contact</a></li>
+             </ul>
+         </section>
+     </aside>-->
     <main id="home-Page-first-page">
         <section class="home-left-Section">
             <section class="letter-box">
@@ -124,7 +122,7 @@
                     <p class="introduce-top">Hello,I am</p>
                 </div>
                 <h1 class="main-Name">Deshan Rajamanthrie</h1>
-                <h6 class="job-position">Software Engineer & FullsStack Developer.</h6>
+                <h6 id="txt-job-position" class="job-position">Software Engineer & FullsStack Developer....</h6>
                 <a href="#contactMe-sevenPage" class="btn-div" style="text-decoration: none">
                     <div class="btn-homePage">Hire Me</div>
                 </a>
@@ -160,6 +158,7 @@
 
         </section>
         <section class="home-right-section">
+            <img class="main-pic-for-mobile" src="./assets/img/home/PicsArt_12-04-06.43.27.jpg" alt="abc">
             <img class="main-pic" src="assets/img/home/01.PNG" alt="main">
 
 
@@ -412,8 +411,9 @@
 
                         <p class="describe-project-content">This Application has been done used Spring Boot,Micro
                             Service Architecture,Spring Validation and Spring Security. </p>
-                        <a target="_blank" href="https://github.com/deshanrajamanthrie/Final_project_NextTravel_FrontEnd">
-                            <button type="button" class="btn-code">CODE                              <i class="fa fa-github"></i></button>
+                        <a target="_blank"
+                           href="https://github.com/deshanrajamanthrie/Final_project_NextTravel_FrontEnd">
+                            <button type="button" class="btn-code">CODE <i class="fa fa-github"></i></button>
                         </a>
                     </div>
                 </div>
@@ -426,10 +426,11 @@
                     <div class="describe-projects">
                         <h4 class="topic">Personal Portfolio</h4>
 
-                        <p class="describe-project-content">This Web Application has been done used HTML,CSS and JavaScript.
-                        And also My all detail consist in this application  </p>
+                        <p class="describe-project-content">This Web Application has been done used HTML,CSS and
+                            JavaScript.
+                            And also My all detail consist in this application </p>
                         <a target="_blank" href="https://github.com/deshanrajamanthrie/My-Profile">
-                            <button type="button" class="btn-code">CODE                              <i class="fa fa-github"></i></button>
+                            <button type="button" class="btn-code">CODE <i class="fa fa-github"></i></button>
                         </a>
                     </div>
 
@@ -443,19 +444,20 @@
                     <div class="describe-projects">
                         <h4 class="topic">Hostel Management System</h4>
 
-                        <p class="describe-project-content">This Application was created use for the ORM Concept,for that
-                        I used hibernate.
+                        <p class="describe-project-content">This Application was created use for the ORM Concept,for
+                            that
+                            I used hibernate.
                             'CRUD',Transaction included it.</p>
                         <a target="_blank" href="https://github.com/deshanrajamanthrie/Hostel_Management_System">
-                            <button type="button" class="btn-code">CODE                              <i class="fa fa-github"></i></button>
+                            <button type="button" class="btn-code">CODE <i class="fa fa-github"></i></button>
                         </a>
                     </div>
                 </div>
             </section>
             <article class="view-all-btn-div">
-            <a  target="_blank" href="./projectZone/projectZone.html">
-                <button class="view-all-btn">View All</button>
-            </a>
+                <a target="_blank" href="./projectZone/projectZone.html">
+                    <button class="view-all-btn">View All</button>
+                </a>
             </article>
 
         </section>
@@ -550,27 +552,28 @@
 <script src="assets/lib/jQuery/jquery-3.6.3.min.js"></script>  <!--Jquery-->
 
 <script>
-    var dropOnOf = false;
-    $("#dropDownBtn").click(function () {
-        if (!dropOnOf) {
-            $("#dropDownList").fadeIn();
-            $("#dropDownList li>a").css({"background": "red", "": ""});
-            dropOnOf = true;
-        } else {
-            $("#dropDownList").fadeOut();
-            dropOnOf = false;
+    let text = $("#txt-job-position").text();
+    $("#txt-job-position").css('color','#8a0921')
+    let position = 0;
+
+
+    function txtIterator() {
+        const txt_iterator = text.substr(0, position);
+       $("#txt-job-position").text(txt_iterator);
+        position++;
+        if (position === text.length) {
+            position = 0;
         }
-    });
+    }
+
+    setInterval(txtIterator, 120);
+    txtIterator()
+
 
 </script>
 <script>
-    var type = new Typed(".text", {
-        strings: ["Full-Stack Developer", "UX Designer", "YouTuber", "Web Developer", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 500,
-        loop: true
-    })
+
+
 </script>
 
 

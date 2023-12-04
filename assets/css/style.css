@@ -31,9 +31,9 @@ header > nav {
     align-items: center;
 }
 
-header > nav > :first-child {
+/*header > nav > :first-child {
     display: none;
-}
+}*/
 
 header ul {
     padding-right: 10px;
