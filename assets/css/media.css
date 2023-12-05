@@ -13,23 +13,34 @@
         display: none;
     }
 
-    header > nav > :first-child {
-        display: flex;
+    /*header > nav > :first-child {
+        display: block;
+    }*/
+    .hamburger {
+        display: block;
+        position: relative;
+        right: 69px;
+    }
+
+    .icon-image-top-header {
+        width: 78px;
+        position: relative;
+        left: 308px;
     }
 
 
     /*HOME PAGE============================================================================*/
-    .main-pic{
+    .main-pic {
         display: none;
     }
 
-    #home-Page-first-page{
+    #home-Page-first-page {
         flex-direction: column-reverse;;
         justify-content: center;
         height: 100vh;
     }
 
-    #home-Page-first-page > .home-left-Section{
+    #home-Page-first-page > .home-left-Section {
         width: 100%;
 
     }
@@ -39,7 +50,7 @@
         top: 75px;
     }
 
-    .main-pic-for-mobile{
+    .main-pic-for-mobile {
         display: block;
         width: 80%;
         position: relative;
@@ -47,7 +58,7 @@
     }
 
 
-   .letter-box{
+    .letter-box {
         font-size: 1rem;
         padding-top: 80px;
     }
@@ -57,10 +68,12 @@
         padding-top: 8px;
         margin-left: 7px;
     }
+
     .introduce-box {
         display: flex;
         justify-content: start;
     }
+
     .introduce-top {
         padding-left: 3px;
         font-size: 1.2rem;
@@ -74,11 +87,12 @@
         left: 234px;
     }
 
-    .social-media-Bar{
+    .social-media-Bar {
         top: 13px;
         justify-content: space-around;
         right: 13px;
     }
+
     #home-Page-first-page > .home-right-section {
         display: flex;
         width: 100%;
@@ -86,6 +100,18 @@
         align-items: end;
     }
 
+    /**/
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+
+    /**/
     /*About Me Page =========================================================================*/
     #aboutMe-SecondPage {
         height: auto;

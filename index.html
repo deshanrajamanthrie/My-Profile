@@ -83,10 +83,21 @@
 </head>
 <body>
 <header>
-
     <nav>
-        <!--  <div id="dropDownBtn"><img src="./assets/img/home/hamberg.png" alt=""></div>-->
         <img class="icon-image-top-header" src="./assets/img/home/l.PNG" alt="abc">
+        <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home-Page-first-page"> Home</a>
+            <a href="#aboutMe-SecondPage">About</a>
+            <a href="#skills-forthPage">Skills</a>
+            <a href="#whatIDo-thirdPage">My Resume</a>
+            <a href="#education-fivePage">Education</a>
+            <a href="#project-sixPage">My-Projects</a>
+            <a href="#contactMe-sevenPage">Contact</a>
+
+        </div>
+
 
         <ul id="text">
             <li><a href="#"> Home</a></li>
@@ -102,19 +113,21 @@
 </header>
 <main>
 
-    <!-- <aside id="dropDownList">
-         <section>
-             <ul>
-                 <li><a href="#"> Home</a></li>
-                 <li><a href="#aboutMe-SecondPage" class="active">About</a></li>
-                 <li><a href="#education">Education</a></li>
-                 <li><a href="#skills">Skills</a></li>
-                 <li><a href="#myProjects">My Projects</a></li>
-                 <li><a href="#mygallery">My Gallery</a></li>
-                 <li><a href="#contact">Contact</a></li>
-             </ul>
-         </section>
-     </aside>-->
+
+    <!--<aside>-->
+    <!--<div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#"> Home</a>
+        <a href="#aboutMe-SecondPage">About</a>
+        <a href="#">Education</a>
+        <a href="#">Skills</a>
+        <a href="#">My Projects</a>
+        <a href="#">My Gallery</a>
+        <a href="#">Contact</a>
+
+    </div>-->
+
+    <!-- </aside>-->
     <main id="home-Page-first-page">
         <section class="home-left-Section">
             <section class="letter-box">
@@ -455,9 +468,9 @@
                 </div>
             </section>
             <article class="view-all-btn-div">
-               <!-- <a target="_blank" href="./projectZone/projectZone.html">-->
-                    <button id="btn-view-All-Projects" class="view-all-btn">View All</button>
-               <!-- </a>-->
+                <!-- <a target="_blank" href="./projectZone/projectZone.html">-->
+                <button id="btn-view-All-Projects" class="view-all-btn">View All</button>
+                <!-- </a>-->
             </article>
 
         </section>
@@ -553,13 +566,13 @@
 
 <script>
     let text = $("#txt-job-position").text();
-    $("#txt-job-position").css('color','#8a0921')
+    $("#txt-job-position").css('color', '#8a0921')
     let position = 0;
 
 
     function txtIterator() {
         const txt_iterator = text.substr(0, position);
-       $("#txt-job-position").text(txt_iterator);
+        $("#txt-job-position").text(txt_iterator);
         position++;
         if (position === text.length) {
             position = 0;
@@ -570,10 +583,25 @@
     txtIterator()
 
     //=============================
+    function openNav() {
+        //  document.getElementById("mySidenav").style.width = "250px";
+        $("#mySidenav").css('width', '250px');
 
-   $("#btn-view-All-Projects").click(function () {
-       $(location).prop("href","./projectZone/projectZone.html");
-   });
+    }
+
+    function closeNav() {
+        //   document.getElementById("mySidenav").style.width = "0";
+        $("#mySidenav").css('width', '0px');
+    }
+
+
+    //===========================
+
+    $("#btn-view-All-Projects").click(function () {
+        $(location).prop("href", "./projectZone/projectZone.html");
+    });
+
+    //===================================
 
 
 </script>
