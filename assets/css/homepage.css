@@ -24,6 +24,7 @@
     font-family: 'Inter', sans-serif;
     /*border: 1px solid;*/
     padding-top: 31px;
+    letter-spacing:2px;
 }
 
 .letter-box .introduce-box > p, h1, h6 {

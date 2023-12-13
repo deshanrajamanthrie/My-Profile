@@ -170,9 +170,35 @@
         left: 10px;
     }
 
-    .left-value {
+
+    .left-value-name {
         position: relative;
         left: 17px;
+    }
+
+    .left-value-id {
+        position: relative;
+        left: 32px
+    }
+
+    .left-value-dob {
+        position: relative;
+        left: 30px;
+    }
+
+    .left-value-university {
+        position: relative;
+        left: 14px;
+    }
+
+    .left-value-mail {
+        position: relative;
+        left: 20px;
+    }
+
+    .left-value-phone {
+        position: relative;
+        left: 13px;
     }
 
     .downSection > :last-child > div {
